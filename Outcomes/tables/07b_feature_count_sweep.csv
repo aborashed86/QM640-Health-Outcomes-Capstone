@@ -1,0 +1,15 @@
+Additional_Features,Target,Total_Features,Best_Model,Best_Val_RMSE,RMSE_Improvement_vs_Dummy_Pct
+0,LifeExpectancy,5,Histogram Gradient Boosting,2.5806,9.83
+0,NCDMortality,5,Extra Trees,5.5103,-27.54
+1,LifeExpectancy,6,Histogram Gradient Boosting,1.6379,42.77
+1,NCDMortality,6,Histogram Gradient Boosting,4.641,-7.42
+2,LifeExpectancy,7,Histogram Gradient Boosting,1.7321,39.48
+2,NCDMortality,7,Histogram Gradient Boosting,4.3144,0.14
+3,LifeExpectancy,8,Random Forest,2.0214,29.37
+3,NCDMortality,8,Histogram Gradient Boosting,3.1958,26.03
+4,LifeExpectancy,9,Random Forest,1.6041,43.95
+4,NCDMortality,9,Extra Trees,3.4998,19.0
+5,LifeExpectancy,10,Gradient Boosting,1.7649,38.34
+5,NCDMortality,10,Extra Trees,3.5183,18.57
+6,LifeExpectancy,11,Histogram Gradient Boosting,1.7483,38.91
+6,NCDMortality,11,Extra Trees,4.0085,7.22

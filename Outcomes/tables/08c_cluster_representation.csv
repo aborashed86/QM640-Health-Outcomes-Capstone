@@ -1,0 +1,3 @@
+Target,N_Features,N_Clusters_Represented,Clusters
+LifeExpectancy,9,5,"Demographic Structure, Economic Context, Health Financing, Health System Capacity, Population Health Risk"
+NCDMortality,9,4,"Demographic Structure, Health Financing, Health System Capacity, Population Health Risk"
