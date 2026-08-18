@@ -1,0 +1,9 @@
+Check,Observed,Passed
+Expected 384 observations,384,True
+Exactly 16 countries,16,True
+Years span 2000-2023,2000-2023,True
+Exactly 24 years,24,True
+No duplicate CountryCode-Year keys,0,True
+LifeExpectancy within 40-90 years,0,True
+NCDMortality within 5-40 percent,0,True
+UHCIndex within 0-100,0,True

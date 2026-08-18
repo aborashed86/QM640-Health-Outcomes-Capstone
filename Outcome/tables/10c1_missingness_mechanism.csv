@@ -1,0 +1,5 @@
+Term,Coefficient,p
+Intercept,0.9001,0.9786
+np.log(GDPPerCapita),-0.608,0.0002
+UHCIndex,0.003,0.9065
+Year,0.002,0.9061

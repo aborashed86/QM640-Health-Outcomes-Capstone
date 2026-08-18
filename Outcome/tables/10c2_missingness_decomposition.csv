@@ -1,0 +1,7 @@
+Target,Specification,N,Focal_Term,Coefficient,p
+LifeExpectancy,"A. Full model, complete case",233,LogHealthExpPC,0.9434539233738514,0.14513837572975483
+LifeExpectancy,"B. Reduced model, same rows",233,LogHealthExpPC,0.98127955060614,0.13189126857986147
+LifeExpectancy,"C. Reduced model, all rows",381,LogHealthExpPC,1.5810383736333884,0.0051088270452463586
+NCDMortality,"A. Full model, complete case",222,UHCIndex,0.42579679644980417,1.1968145980500581e-07
+NCDMortality,"B. Reduced model, same rows",222,UHCIndex,0.49566511518203055,2.003624477171584e-07
+NCDMortality,"C. Reduced model, all rows",349,UHCIndex,0.29537962116923216,0.030708353257453695

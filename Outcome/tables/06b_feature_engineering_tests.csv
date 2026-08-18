@@ -1,0 +1,3 @@
+Engineered_Feature,Target,Abs_r_engineered,Abs_r_raw_HealthExpPC
+LogHealthExpPC,LifeExpectancy,0.88,0.793
+LogHealthExpPC,NCDMortality,0.565,0.525

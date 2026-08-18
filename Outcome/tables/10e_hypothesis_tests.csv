@@ -1,0 +1,6 @@
+RQ,Null_Hypothesis,Test,Statistic,df,p_Value,Decision_at_.05,Note
+RQ1,b1 = ... = b6 = 0 (six predictors jointly unassociated with LifeExpectancy),Joint F-test (cluster-robust),2.2036,"6, 15",0.10055046491038745,Fail to reject H0,Wild cluster bootstrap applied to individual terms in Section 6.5
+RQ3,b1 = ... = b6 = 0 (six predictors jointly unassociated with NCDMortality),Joint F-test (cluster-robust),6.6293,"6, 15",0.0014053421168730336,Reject H0,UHCIndex individually significant and bootstrap-robust (p = .011)
+RQ2,All country-by-year interactions = 0 (no comparator slope differs from Saudi Arabia),Joint F-test (HC3),9.3735,"15, 352",1.5743270952320087e-18,Reject H0,7 of 15 comparators differ individually
+RQ4a,b3 = 0 (UHC does not moderate the expenditure-LifeExpectancy relationship),F-test on interaction (cluster-robust),0.6711,"1, 15",0.4255051096173418,Fail to reject H0,Also non-significant under wild cluster bootstrap (Section 6.5)
+RQ4b,b3 = 0 (UHC does not moderate the expenditure-NCDMortality relationship),F-test on interaction (cluster-robust),0.3792,"1, 15",0.5472547703374047,Fail to reject H0,Also non-significant under wild cluster bootstrap (Section 6.5)

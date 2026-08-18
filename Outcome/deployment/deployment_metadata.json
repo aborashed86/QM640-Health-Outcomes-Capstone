@@ -1,0 +1,91 @@
+{
+  "notebook": "QM640_Capstone_V4_RQ_Aligned_Full_Analysis",
+  "saved_on": "2026-08-16",
+  "random_state": 42,
+  "python_version": "3.12.13",
+  "scikit_learn_version": "1.6.1",
+  "pandas_version": "2.2.2",
+  "numpy_version": "2.0.2",
+  "training_countries": [
+    "ARE",
+    "BHR",
+    "DZA",
+    "EGY",
+    "IRN",
+    "IRQ",
+    "JOR",
+    "KWT",
+    "LBN",
+    "LBY",
+    "MAR",
+    "OMN",
+    "QAT",
+    "SAU",
+    "TUN",
+    "TUR"
+  ],
+  "cv_fold_countries": {
+    "0": [
+      "JOR",
+      "MAR",
+      "OMN",
+      "TUR"
+    ],
+    "1": [
+      "ARE",
+      "EGY",
+      "KWT",
+      "LBY"
+    ],
+    "2": [
+      "DZA",
+      "IRN",
+      "IRQ",
+      "QAT"
+    ],
+    "3": [
+      "BHR",
+      "LBN",
+      "SAU",
+      "TUN"
+    ]
+  },
+  "targets": {
+    "LifeExpectancy": {
+      "selected_model": "Extra Trees",
+      "features": [
+        "Diabetes",
+        "GDPPerCapita",
+        "GovHealthExpPC",
+        "HealthExpGDP",
+        "OOPExpenditure",
+        "OldAgeDependency",
+        "Physicians",
+        "UHCIndex",
+        "Unemployment"
+      ],
+      "cv_test_rmse_mean": 2.303364851612886,
+      "cv_test_rmse_sd": 0.6730487524934294,
+      "cv_test_mae_mean": 1.8624943871681918,
+      "model_path": "qm640_v4_outputs/deployment/model_LifeExpectancy.joblib"
+    },
+    "NCDMortality": {
+      "selected_model": "Extra Trees",
+      "features": [
+        "AdultObesity",
+        "Diabetes",
+        "GovHealthExpPC",
+        "HealthExpGDP",
+        "OOPExpenditure",
+        "OldAgeDependency",
+        "Physicians",
+        "UHCIndex",
+        "UrbanPopulation"
+      ],
+      "cv_test_rmse_mean": 5.14288554515017,
+      "cv_test_rmse_sd": 1.4105861951158172,
+      "cv_test_mae_mean": 4.343726840304248,
+      "model_path": "qm640_v4_outputs/deployment/model_NCDMortality.joblib"
+    }
+  }
+}
