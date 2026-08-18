@@ -1,7 +1,0 @@
-Target,Performance_Level,Pooled_OOF_R2_Target
-LifeExpectancy,Minimum acceptable,0.2
-LifeExpectancy,Good,0.35
-LifeExpectancy,Strong,0.5
-NCDMortality,Minimum acceptable,0.05
-NCDMortality,Good,0.2
-NCDMortality,Strong,0.35

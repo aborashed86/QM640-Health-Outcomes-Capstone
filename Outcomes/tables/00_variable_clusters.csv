@@ -1,8 +1,0 @@
-Cluster,N_Variables,Variables
-Health Financing,5,"HealthExpPC, HealthExpGDP, GovHealthExpShare, GovHealthExpPC, OOPExpenditure"
-Health System Capacity,4,"UHCIndex, Physicians, NursesMidwives, HospitalBeds"
-Preventive Health,1,DPTImmunization
-Population Health Risk,2,"Diabetes, AdultObesity"
-Environmental / Cross-sector,1,PM25
-Demographic Structure,4,"Population, PopulationDensity, UrbanPopulation, OldAgeDependency"
-Economic Context,3,"GDPPerCapita, GDPGrowth, Unemployment"
