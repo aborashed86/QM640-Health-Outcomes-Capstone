@@ -8,3 +8,5 @@ joblib>=1.3
 openpyxl>=3.1
 jupyter>=1.0
 ipython>=8.0
+pandas numpy scipy statsmodels scikit-learn xgboost matplotlib openpyxl
+jupyter ipykernel
