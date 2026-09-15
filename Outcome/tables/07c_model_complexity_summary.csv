@@ -1,9 +1,0 @@
-Model,Model_Class,Preprocessing,Tuned_Parameters,Relative_Runtime,Interpretive_Role
-Dummy Mean,No-information benchmark,Iterative imputation,None,Very low,Minimum performance floor
-Linear Regression,Linear,Imputation + scaling,None,Very low,Transparent linear benchmark
-Ridge Regression,Regularized linear,Imputation + scaling,alpha,Low,Handles correlated predictors
-Elastic Net,Regularized linear,Imputation + scaling,alpha,Low,Shrinkage and sparse coefficients
-Random Forest,Bagged trees,Imputation,max_depth,Moderate,Nonlinear interactions and robustness
-Gradient Boosting,Sequential boosting,Imputation,learning_rate,Moderate,Nonlinear prediction with controlled complexity
-Extra Trees,Randomized tree ensemble,Imputation,max_depth,Moderate,"Nonlinear interactions, lower variance than a single tree"
-Histogram Gradient Boosting,Binned sequential boosting,Imputation,max_leaf_nodes,Moderate,Fast boosting variant for larger feature counts
